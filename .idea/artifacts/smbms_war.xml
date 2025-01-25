@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="smbms:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>smbms</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="smbms.war">
+      <element id="artifact" artifact-name="smbms:war exploded" />
+    </root>
+  </artifact>
+</component>
